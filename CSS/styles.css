@@ -1,0 +1,101 @@
+body {
+    width: 90%;
+    margin:  auto;
+  }
+  .title {
+    background-color: #ff7a3b;
+    color: #1f2f1b;
+    width: 70%;
+    min-width: 500px;
+    margin: auto;
+  }
+  
+  h1 {
+  text-align: center;
+  margin: 10px 0 -10px 0;
+  padding: 5px 0px;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: 500;
+  }
+  
+  #description {
+    text-align: center;
+    margin: 2px 0 20px 0;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  form {
+    width: 50%;
+    margin:  auto;
+    padding: 10px;
+    display: block;
+    min-width: 500px;
+    border: 2px solid#ff7a3b;
+    margin-bottom: 10px;
+  }
+  fieldset {
+    border: none;
+  }
+  
+  fieldset:last-of-type {
+    padding: 0 0 1px 0;
+    margin-bottom: 10px;
+  }
+  label, #name-label, #email-label, #number-label {
+    display: block;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 19px;
+    
+    
+  }
+  
+  .form-top input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    
+  }
+  #question {
+    padding:0 19px;
+    width: unset;
+    display: block;
+    font-size: 19px;
+    font-weight: 700;
+  }
+  
+  #dropdown{
+    font-size: 15px;
+    width: 95.3%;
+    margin: 15px;
+    height: 30px;
+  }
+  
+  em {
+    font-weight: 300;
+  }
+  #recommendation-label {
+    margin-left: 10px;
+    
+  }
+  .comment {
+    width: 95%;
+    margin: 10px;
+    height: 70px;
+    min-width: 94%;
+    max-width: 450px;
+    min-height: 59px;
+    max-height: 69px;
+    scrollbar-width: none;
+    font-size: 18px;
+    padding: 3px;
+  }
+  #submit {
+    width: 100%;
+    height: 30px;
+    background-color: #ff7a3b;
+    border-radius: 9%;
+  }
