@@ -8,7 +8,7 @@
     </head>
     <body>
       <div class="title">
-      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <h1 id="title">Candy Crush Survey</h1>
       <p id="description">Thank you for taking the time to help us improve the platform</p>
       <hr>
       </div>
@@ -19,44 +19,46 @@
           <label id="number-label">Age <input id="number" type="number" required min="13" max="90" placeholder="Age"></label>
           </fieldset>
           <fieldset>
-           <p id="question">Which option best discribes your current role?</p>
+           <p id="question">Which special candy do you find most useful in completing levels?</p>
             <select id="dropdown"> 
-              <option>Select a role</option>
-              <option>Student</option>
-              <option>Full Time Job</option>
-              <option>Full Time Learner</option>
-              <option>Prefer Not To Say</option>
-              <option>Other</option>
+              <option>Select a candy</option>
+              <option>Striped Candy</option>
+              <option>Wrapped Candy</option>
+              <option>Color Bomb</option>
+              <option>Jelly Fish</option>
               </select> 
-              <p id="question">Would you recommand freeCodeCamp to a friend?</p>
-              <label id="recommendation-label"><input name="recommendation" value="recommendation" type="radio"> Definately</label>
-              <label id="recommendation-label"><input name="recommendation" value="recommendetion" type="radio"> Maybe</label> 
-              <label id="recommendation-label"><input name="recommendation" value="recommendation" type="radio"> Not sure</label>
-              <p id="question">What is yor favorite feature on freeCodeCamp?</p>
+              <p id="question">What is your prefered method of earning boosters?</p>
+              <label id="recommendation-label"><input name="recommendation" value="recommendation" type="radio">Completing levels</label>
+              <label id="recommendation-label"><input name="recommendation" value="recommendetion" type="radio">Participating in events</label> 
+              <label id="recommendation-label"><input name="recommendation" value="recommendation" type="radio">Purchasing with rea money</label>
+              <label id="recommendation-label"><input name="recommendation" value="recommendation" type="radio">Daily rewards</label>
+              <p id="question">Which level type do you find most challenging ?</p>
                 <select id="dropdown">
-                  <option>Select an option</option>
-                  <option>Challanges</option>
-                  <option>Projects</option>
-                  <option>Community</option>
-                  <option>Open Source</option>
+                  <option>Select an challenge</option>
+                  <option>Jelly levels</option>
+                  <option>Ingredient levels</option>
+                  <option>Candy order levels</option>
+                  <option>Mixed-mode levels</option>
                 </select>
                 <p id="question">What would you like to see improved? <em>(Check all that apply)</em></p>
-                <label><input value="check" type="checkbox"> Front-End Projects</label>
-                <label><input value="check" type="checkbox"> Back-End Projects</label>
-                <label><input value="check" type="checkbox"> Data visualization</label>
+                <label><input value="check" type="checkbox"> Events</label>
+                <label><input value="check" type="checkbox"> Rewards</label>
                 <label><input value="check" type="checkbox"> Challenges</label>
-                <label><input value="check" type="checkbox"> Open Source Community</label>
-                <label><input value="check" type="checkbox"> Glitter Help Room</label>
-                <label><input value="check" type="checkbox"> Videos</label>
-                <label><input value="check" type="checkbox"> City Meetups</label>
-                <label><input value="check" type="checkbox"> Wiki</label>
-                <label><input value="check" type="checkbox"> Forum</label>
-                <label><input value="check" type="checkbox"> Additional Courses</label>
+                <label><input value="check" type="checkbox"> Boosters</label>
+                <label><input value="check" type="checkbox"> Specail Candy</label>
+                <label><input value="check" type="checkbox"> Power-ups</label>
+                <label><input value="check" type="checkbox"> Graphics</label>
+                <label><input value="check" type="checkbox"> Sound</label>
+                <label><input value="check" type="checkbox"> Difficulty</label>
+                <label><input value="check" type="checkbox"> Social Features</label>
+                <label><input value="check" type="checkbox"> Themes</label>
                 <p id="question">Any comments or suggestions?</p>
                   <textarea class="comment" placeholder="Enter your comment here"></textarea>
           </fieldset>
-               <button id="submit" type="submit" value="submit">Submit</button>
-               "
+          <div class="submit-wrapper">
+            <button id="submit" type="submit" value="submit">Submit</button>
+          </div>
+               
 
       </form>
     </body>
